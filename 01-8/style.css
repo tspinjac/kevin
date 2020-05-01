@@ -16,6 +16,7 @@ body {
     background: #23424A;
     color: white;
     padding: 6em 4em;
+    border: 2px solid yellow;
 }
 
 h1 {
@@ -24,7 +25,7 @@ h1 {
 }
 
 .intro-content {
-    max-width: 50%;
+    max-width: 450px;
     color: #fff;
 }
 
@@ -42,4 +43,10 @@ button {
     background-color: #38CFD9;
     color: #000 !Important;
     letter-spacing: 1px;
+}
+
+button:hover,
+button:focus {
+    opacity: .9;
+    box-shadow: 0px 0px 13px 2px yellow;
 }
